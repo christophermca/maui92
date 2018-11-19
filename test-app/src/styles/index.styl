@@ -1,0 +1,70 @@
+$colors = json('./color-directory.json', {hash: true})
+
+html, body
+  height: 100%
+  margin: 0
+  padding: 0
+  width: 100%
+
+section.theme
+  display: flex
+  position: absolute
+  flex-direction: column
+  justify-content: space-around
+  height: 100%
+  width: 100%
+  z-index: 1
+
+  & .color-block
+    height: 70px
+
+  .color-1
+    .color-block
+      background: $colors['1']
+
+    .text-block
+      color: $colors['1']
+
+  .color-2
+    .color-block
+      background: $colors['2']
+
+    .text-block
+      color: $colors['2']
+
+  .color-3
+    .color-block
+      background: $colors['3']
+
+    .text-block
+      color: $colors['3']
+
+  .color-4
+    .color-block
+      background: $colors['4']
+
+    .text-block
+      color: $colors['4']
+
+  .color-5
+    .color-block
+      background: $colors['5']
+
+    .text-block
+      color: $colors['5']
+
+section.bg-colors
+  display: flex
+  flex-direction: row
+  height: 100%
+
+  div
+    height:100%
+    width: 100%
+
+    &.bg-dark
+      background-color: $colors['bg']['dark']
+
+    &.bg-light
+        background-color: $colors['bg']['light']
+
