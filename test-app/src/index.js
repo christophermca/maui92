@@ -1,1 +1,2 @@
-import "./styles/index.styl"
+import "./styles/index.styl";
+import "./app/index.js";
