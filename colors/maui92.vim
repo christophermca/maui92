@@ -2,7 +2,7 @@
 " Site: https:/github.com/christophermca/maui92/
 " Version:      0.0.2
 
-" Note: an theme built with aloha
+" Note: A theme built with aloha
 
 highlight clear
 if exists("syntax_on")
@@ -17,7 +17,7 @@ if !exists('g:Maui92Colors')
   let g:Maui92Colors = 0
 endif
 
-echo 'hi'
+hi Normal ctermbg=233 ctermfg=254
 
 
 " " Vim >= 7.0 specific colors
