@@ -26,8 +26,8 @@
   "dependencies": {
     "prettier": "*",
     "stylus": "*",
-    "webpack": "^5.35.1",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
   }
 }
